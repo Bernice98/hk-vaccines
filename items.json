@@ -1,0 +1,49 @@
+{
+    "0f8c-44fd-bfd9": {
+        "fields": {
+            "0266-4e35-9668": {
+                "id": "0266-4e35-9668", 
+                "name": "topic", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "6b59-4255-8e88": {
+                "id": "6b59-4255-8e88", 
+                "name": "images", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "2052-46bd-b42e": {
+                "id": "2052-46bd-b42e", 
+                "name": "vaccinated", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "d9c1-446f-9c21": {
+                "id": "d9c1-446f-9c21", 
+                "name": "each vaccinated", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "30ed-41b0-a2f7": {
+                "id": "30ed-41b0-a2f7", 
+                "name": "effect", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "13fe-4f89-84b0": {
+                "id": "13fe-4f89-84b0", 
+                "name": "dose1dose2", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "news"
+    }
+}

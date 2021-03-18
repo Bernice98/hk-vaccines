@@ -1,0 +1,182 @@
+{
+    "extractors": {},
+    "id": "dbee-4656-8a1b",
+    "name": "Drug Education Resource Centre",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "9318-47b9-878b",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "0f8c-44fd-bfd9",
+                    "selector": ".news-part-01",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".news-h1"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "b230-444e-9be4": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "0266-4e35-9668",
+                            "required": false
+                        }
+                    },
+                    "id": "acf0-44ae-aafe",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".news-part-01 > .news-h1",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" news-h1 \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".news-part-01 > .ckeditor_div > li> img"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "d3cf-4ec1-93ce": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "6b59-4255-8e88",
+                            "required": false
+                        }
+                    },
+                    "id": "7ab7-4f69-bb0d",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".news-part-01 > .ckeditor_div > li> img",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" ckeditor_div \")]/"
+                },
+                {
+                    "accept_selectors": [
+                        ".ckeditor_div > p:nth-child(2)"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "f26a-470e-b6ef": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "2052-46bd-b42e",
+                            "required": false
+                        }
+                    },
+                    "id": "d525-4aa1-9cc2",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".news-part-01 > .ckeditor_div > p:nth-child(2)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" ckeditor_div \")]/p[2]"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(4) > span > span > span"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "7c6c-4499-bede": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "d9c1-446f-9c21",
+                            "required": false
+                        }
+                    },
+                    "id": "cdf8-4a1b-a0b2",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".news-part-01 > .ckeditor_div > p:nth-child(4) > span > span > span",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" ckeditor_div \")]/p[4]/span/span/span"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(7) > span > span"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "fab8-4b3c-bb37": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "30ed-41b0-a2f7",
+                            "required": false
+                        }
+                    },
+                    "id": "66a3-488a-8ba9",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".news-part-01 > .ckeditor_div > p:nth-child(7) > span > span",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" ckeditor_div \")]/p[7]/span/span"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(11) > span > span"
+                    ],
+                    "container_id": "9318-47b9-878b",
+                    "data": {
+                        "c957-45e6-94c3": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "13fe-4f89-84b0",
+                            "required": false
+                        }
+                    },
+                    "id": "de14-4901-ae88",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".news-part-01 > .ckeditor_div > p:nth-child(11) > span > span",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" news-part-01 \")]/*[contains(concat(\" \", @class, \" \"), \" ckeditor_div \")]/p[11]/span/span"
+                }
+            ]
+        }
+    },
+    "scrapes": "0f8c-44fd-bfd9",
+    "spider": "www.derc.org.hk",
+    "url": "https://www.derc.org.hk/en/news-detail.php?id=1068",
+    "version": "0.13.3"
+}
